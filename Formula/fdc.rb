@@ -1,7 +1,7 @@
 class Fdc < Formula
   desc "A Rust-powered CLI tool for elegantly organizing and curating files"
   homepage "https://github.com/nicejade/fine-directory-curator"
-  url "https://github.com/nicejade/fine-directory-curator/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/nicejade/fine-directory-curator/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "6f7ffa76f19d0e91c6d083db932e0bca9ddcbe6e83d94796bba8459f7ec0b607"
   license "MIT"
 
