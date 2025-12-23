@@ -6,14 +6,14 @@ class Fdc < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/nicejade/fine-directory-curator/releases/download/v0.2.0/fdc-macos-aarch64.tar.gz"
-      sha256 "sha256:b609024dcfea0ef2b1b008275a21b324cfb5b261a3a7939a76d0552323953621"
+      sha256 "b609024dcfea0ef2b1b008275a21b324cfb5b261a3a7939a76d0552323953621"
     else
       url "https://github.com/nicejade/fine-directory-curator/releases/download/v0.2.0/fdc-macos-x86_64.tar.gz"
-      sha256 "sha256:7a26e9f9d3d52cb4d427998f610f964f2e035fae4e8139596c99310f2eaa6715"
+      sha256 "7a26e9f9d3d52cb4d427998f610f964f2e035fae4e8139596c99310f2eaa6715"
     end
   elsif OS.linux?
     url "https://github.com/nicejade/fine-directory-curator/releases/download/v0.2.0/fdc-linux-x86_64.tar.gz"
-    sha256 "sha256:e401504302310b759c12d6000dc986ef5ec1b57bb6b0b969708ed219ffcf9ec8"
+    sha256 "e401504302310b759c12d6000dc986ef5ec1b57bb6b0b969708ed219ffcf9ec8"
   end
 
   def install
